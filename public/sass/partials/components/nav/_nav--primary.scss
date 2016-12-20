@@ -1,0 +1,15 @@
+// @file
+// Styles for the main menu.
+
+.nav--primary {
+  display: none;
+  @include breakpoint($mobile-menu-bp, $no-query: true) {
+    display: block;
+  }
+  ul.nav {
+    @extend %nav--inline;
+  }
+  @media print {
+    display: none;
+  }
+}
