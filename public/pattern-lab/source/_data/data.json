@@ -1,93 +1,83 @@
 {
-  "title" : "Pattern Lab",
-  "htmlClass": "pl",
-  "bodyClass": "body",
+  "bodyClass": "",
+  "htmlClass": "",
+  "pageTitle": "Page Title",
+  "section": "Section",
+  "siteName": "Site Name",
+
+  "font": {
+    "headings": "'Helvetica Neue', Helvetica, Arial, sans-serif;",
+    "monospace": "Consolas, 'Lucida Console', 'Liberation Mono', 'Courier New', monospace, sans-serif;",
+    "primary": "'Helvetica Neue', Helvetica, Arial, sans-serif;"
+  },
+
+  "adminView": false,
+
+  "body": "<p>This is the body content, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. There is no limit to how long this content can be.</p>",
+  "summary": "<p>This is the summary, which can contain <abbr title='Hyper Text Markup Language'>HTML</abbr> markup. It should be 600 characters or less.</p>",
+  "title": "Title",
+  "url": "#",
+
+  "file": {
+    "icon": "../../drupal/images/application-pdf.png",
+    "mime": "application/pdf",
+    "name": "file name",
+    "size": "115.83 KB"
+  },
   "img": {
-    "landscape_4x3": {
-      "src": "../../images/fpo_4x3.png",
-      "alt": "4x3 Image"
+    "icon": {
+      "src": "http://fpoimg.com/48x48?text=Icon",
+      "alt": "Icon",
+      "height": "48",
+      "width": "48"
     },
-    "landscape_16x9": {
-      "src": "../../images/fpo_16x9.png",
-      "alt": "16x9 Image"
+    "thumbnail": {
+      "src": "http://fpoimg.com/140x105?text=Thumbnail 4:3",
+      "alt": "Thumbnail 4:3",
+      "height": "105",
+      "width": "140"
     },
-    "square": {
-      "src": "../../images/fpo_square.png",
-      "alt": "Square Thumbnail"
+    "portrait": {
+      "src": "http://fpoimg.com/300x400?text=Portrait 3:4",
+      "alt": "Portrait 3:4",
+      "height": "400",
+      "width": "300"
     },
-    "avatar" : {
-      "src" : "../../images/fpo_avatar.png",
-      "alt" : "Person Name"
-    },
-    "rectangle": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "Rectangle"
+    "landscape": {
+      "src": "http://fpoimg.com/800x450?text=Landscape 16:9",
+      "alt": "Landscape 16:9",
+      "height": "450",
+      "width": "800"
     }
   },
-  "headline" : {
-    "short" : "Lorem ipsum dolor sit (37 characters)",
-    "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
+
+  "year": {
+    "long": "2016",
+    "short": "16"
   },
-  "excerpt" : {
-    "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  "month": {
+    "long": "September",
+    "short": "Sep",
+    "digit": "09"
   },
-  "description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
-  "url" : "#",
-  "name" : {
-    "first": "Lacy",
-    "firsti": "L",
-    "middle": "Tommie",
-    "middlei": "T",
-    "last": "Way",
-    "lasti": "W"
+  "weekday": {
+    "long": "Wednesday",
+    "short": "Wed"
   },
-  "year" : {
-    "long": "2013",
-    "short": "13"
-  },
-  "month" : {
-    "long": "February",
-    "short": "Feb",
-    "digit": "02"
-  },
-  "dayofweek" : {
-    "long": "Monday",
-    "short": "Mon"
-  },
-  "day" : {
-    "long": "10",
-    "short": "10",
+  "day": {
+    "long": "28",
+    "short": "28",
     "ordinal": "th"
   },
-  "hour" : {
+  "hour": {
     "long": "01",
     "short": "1",
     "military": "13",
     "ampm": "pm"
   },
-  "minute" : {
+  "minute": {
     "long": "20",
     "short": "20"
   },
-  "seconds" : "31",
-  "author" : {
-    "first_name": "Author",
-    "last_name": "Name"
-  },
-  "hero": true,
-  "emergency" : false,
-  "touts" : [
-    { },
-    { },
-    { }
-  ],
-  "latest_posts" : [
-    { },
-    { },
-    { },
-    { },
-    { }
-  ]
+  "seconds": "31"
 }

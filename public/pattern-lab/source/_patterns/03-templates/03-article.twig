@@ -1,12 +1,14 @@
-{% extends "templates-page-1col" %}
-{% block main %}
-    <article class="article">
-        <header class="article-header">
-            <h1>Article Headline Lorem ipsum dolor sit aweofij</h1>
-            {% include "molecules-byline" %}
-        </header>
-        {% include "organisms-article-body" %}
-    </article><!--end .article-->
-    {% include "molecules-social-share" %}
-    {% include "organisms-comment-thread" %}
-{% endblock %}
+{% include "layouts-header-region" %}
+{% include "layouts-navigation-region" %}
+{% include "layouts-preface-region" %}
+
+<main id="main" class="main" role="main" tabindex="-1">
+  <div class="region-content layout-constrain">
+
+    {% include "components-article" %}
+
+  </div>
+</main>
+
+{% include "layouts-postscript-region" %}
+{% include "layouts-footer-region" %}
