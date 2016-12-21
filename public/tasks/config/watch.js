@@ -4,6 +4,9 @@ module.exports = function (grunt) {
       gesso: {
         files : [ '<%= pkg.themePath %>/sass/**/*.scss' ],
         tasks : [ 'gessoBuildStyles' ],
+        options: {
+          livereload: true
+        }
       },
       patternlab: {
         files: ['<%= pkg.themePath %>/pattern-lab/source/**/*'],
@@ -15,6 +18,9 @@ module.exports = function (grunt) {
       svgs: {
         files : [ '<%= pkg.themePath %>/images/bg/*.svg' ],
         tasks : [ 'gessoBuildImages','gessoBuildStyles' ],
+        options: {
+          livereload: true
+        }
       },
     }
   });
