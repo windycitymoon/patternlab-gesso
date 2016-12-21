@@ -17,7 +17,7 @@ discrete, reusable UI elements.
 
 For now I've installed the [Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso), and then proceeded to rip out a bunch of the Drupal platform related JS.
 
-But you should be able to replace the 'pattern-lab' directory with any  of [PHP Patternlab Starter Kit listed here](http://patternlab.io/download.html).
+You should be able to replace the 'pattern-lab' directory with any  of [PHP Patternlab Starter Kit listed here](http://patternlab.io/download.html).
 
 <!-- The included Grunt tasks look for an instance of the Drupal standard edition of
 Pattern Lab and [the Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso)
