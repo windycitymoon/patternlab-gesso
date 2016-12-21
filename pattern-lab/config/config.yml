@@ -38,3 +38,7 @@ twigFilterExt: filter.php
 twigFunctionExt: function.php
 twigTagExt: tag.php
 twigTestExt: test.php
+plugins:
+    faker:
+        enabled: true
+        locale: en_US
