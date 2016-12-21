@@ -2,21 +2,22 @@ module.exports = function (grunt) {
   grunt.config.merge({
     watch: {
       gesso: {
-        files : [ '<%= pkg.themePath %>/sass/**/*.scss' ],
+        files : [ 'sass/**/*.scss' ],
         tasks : [ 'gessoBuildStyles' ],
         options: {
           livereload: true
         }
       },
       patternlab: {
-        files: ['<%= pkg.themePath %>/pattern-lab/source/**/*'],
+        files: ['pattern-lab/source/**/*'],
         tasks: ['shell:patternlab'],
         options: {
-          livereload: true
+          livereload: true,
+          event: ['changed', 'added', 'deleted']
         }
       },
       svgs: {
-        files : [ '<%= pkg.themePath %>/images/bg/*.svg' ],
+        files : [ 'images/bg/*.svg' ],
         tasks : [ 'gessoBuildImages','gessoBuildStyles' ],
         options: {
           livereload: true
