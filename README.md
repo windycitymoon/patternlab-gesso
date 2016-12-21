@@ -15,7 +15,11 @@ discrete, reusable UI elements.
 
 ### Pattern Lab installation
 
-The included Grunt tasks look for an instance of the Drupal standard edition of
+For now I've installed the the Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso), and ripped out a bunch of the Drupal platform related JS.
+
+But you should be able to replace this with any [PHP Patternlab Starter Kit](http://patternlab.io/download.html) you want here, and long as you put it in a directory named 'pattern-lab', so that the grunt tasks will work.
+
+<!-- The included Grunt tasks look for an instance of the Drupal standard edition of
 Pattern Lab and [the Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso)
 in a subdirectory of the theme called 'pattern-lab'.  The Grunt build task will
 skip building Pattern Lab if this directory is not found.
@@ -29,7 +33,7 @@ $ composer create-project pattern-lab/edition-drupal-standard pattern-lab
 
 When prompted, select /forumone/starterkit-twig-drupal-gesso as the starterkit.
 
-If prompted, select 'r' to overwrite existing /source/ files.
+If prompted, select 'r' to overwrite existing /source/ files. -->
 
 
 ### Compiling Sass
