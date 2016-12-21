@@ -15,7 +15,7 @@ discrete, reusable UI elements.
 
 ### Pattern Lab installation
 
-For now I've installed the the Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso), and ripped out a bunch of the Drupal platform related JS.
+For now I've installed the [Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso), and ripped out a bunch of the Drupal platform related JS.
 
 But you should be able to replace this with any [PHP Patternlab Starter Kit](http://patternlab.io/download.html) you want here, and long as you put it in a directory named 'pattern-lab', so that the grunt tasks will work.
 
