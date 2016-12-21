@@ -19,7 +19,7 @@
   "url": "#",
 
   "file": {
-    "icon": "../../drupal/images/application-pdf.png",
+    "icon": "http://fpoimg.com/32x32?text=file",
     "mime": "application/pdf",
     "name": "file name",
     "size": "115.83 KB"
