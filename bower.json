@@ -12,6 +12,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "singularity": "~1.7.0"
+    "singularity": "~1.7.0",
+    "angular-material": "^1.1.1"
   }
 }
