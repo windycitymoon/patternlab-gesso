@@ -2,12 +2,38 @@
 // Color variables
 // http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_
 
-$primary-text-color: #333;
-$secondary-text-color: #555;
+$colors: (
+  black: (
+    0: #000,
+  ),
+  blue: (
+    0: #6fd8d0,
+    1: #01acae,
+    2: #3398d1,
+  ),
+  orange: (
+    0: #f15d22,
+  ),
+  grey: (
+    0: #ebebeb,
+    1: #666666,
+    2: #414042,
+  ),
+  white: (
+    0: #FFF,
+  ),
+);
+
+@function get-color($color, $value: 0) {
+  @return map-get(map-get($colors, $color), $value);
+}
+
+$primary-text-color: get-color(grey, 2);
+$secondary-text-color:  get-color(grey, 1);
 $heading-text-color: #333;
-$body-color: #fff;
-$link-color: blue;
-$link-hover-color: green;
+$body-color: get-color(white, 0);
+$link-color: get-color(blue, 1);
+$link-hover-color: get-color(blue, 0);
 $selection-background: blue;
 $selection-foreground: #fff;
 $border-color: #ccc;
