@@ -21,10 +21,7 @@
     flex: 1 0 300px;
     &:first-child {
       align-self: center;
-      padding-bottom: 0;
-      @include breakpoint(838px, $no-query: true) {
-        padding-bottom: 15%;
-      }
+      padding-bottom: 15%;
     }
   }
 }
