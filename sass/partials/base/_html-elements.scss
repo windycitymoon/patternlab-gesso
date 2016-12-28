@@ -136,37 +136,37 @@ form {
 
 h1 {
   @extend %hN;
-  font-size: em($font-size-xxxl);
+  font-size: em($font-size-xxl);
   // margin: 0;
 }
 
 h2 {
   @extend %hN;
-  font-size: em($font-size-xxl);
+  font-size: em($font-size-xl);
   // margin: 0;
 }
 
 h3 {
   @extend %hN;
-  font-size: em($font-size-xl);
+  font-size: em($font-size-lg);
   // margin: 0;
 }
 
 h4 {
   @extend %hN;
-  font-size: em($font-size-lg);
+  font-size: em($font-size-normal);
   // margin: 0;
 }
 
 h5 {
   @extend %hN;
-  // font-size: em($font-size-md);
+  font-size: em($font-size-md);
   // margin: 0;
 }
 
 h6 {
   @extend %hN;
-  // font-size: em($font-size-sm);
+  font-size: em($font-size-sm);
   // margin: 0;
 }
 
