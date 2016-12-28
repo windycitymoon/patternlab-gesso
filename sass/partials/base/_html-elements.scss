@@ -142,7 +142,7 @@ h1 {
 
 h2 {
   @extend %hN;
-  font-size: rem($font-size-xxl);
+  font-size: em($font-size-xxl);
   // margin: 0;
 }
 
