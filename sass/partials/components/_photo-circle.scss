@@ -2,10 +2,11 @@
 }
 
 .photo-circle {
-  width: 442px;
+  float: right;
   height: 368px;
-  position: relative;
   margin: 2em;
+  position: relative;
+  width: 442px;
 }
 
 .photo-circle__background {
