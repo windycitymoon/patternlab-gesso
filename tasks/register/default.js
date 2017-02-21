@@ -1,7 +1,8 @@
 module.exports = function (grunt) {
   grunt.registerTask('default', [
-    'bower',
+    // 'bower',
     'gessoBuild',
     'concurrent'
+    // 'simple-watch'
   ]);
 };

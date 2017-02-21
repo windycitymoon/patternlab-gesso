@@ -9,17 +9,13 @@ discrete, reusable UI elements.
 
 # Getting Started
 1. Clone this repository
-2. run 'npm install'
-3. run 'grunt'
-
+2. Install pattern-lab (instructions below)
+3. run 'npm install'
+4. run 'grunt'
 
 ### Pattern Lab installation
 
-For now I've installed the [Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso), and then proceeded to rip out a bunch of the Drupal platform related JS.
-
-You should be able to replace the 'pattern-lab' directory with any  of [PHP Patternlab Starter Kit listed here](http://patternlab.io/download.html).
-
-<!-- The included Grunt tasks look for an instance of the Drupal standard edition of
+The included Grunt tasks look for an instance of the Drupal standard edition of
 Pattern Lab and [the Gesso Twig starter kit](https://github.com/forumone/starterkit-twig-drupal-gesso)
 in a subdirectory of the theme called 'pattern-lab'.  The Grunt build task will
 skip building Pattern Lab if this directory is not found.
@@ -33,7 +29,8 @@ $ composer create-project pattern-lab/edition-drupal-standard pattern-lab
 
 When prompted, select /forumone/starterkit-twig-drupal-gesso as the starterkit.
 
-If prompted, select 'r' to overwrite existing /source/ files. -->
+If prompted, select 'r' to overwrite existing /source/ files.
+
 
 
 ### Compiling Sass
